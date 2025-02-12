@@ -1,0 +1,23 @@
+# Summary
+
+## Key Objectives
+
+1.  **Understanding Regulatory Submissions**: The book offers an a overview of regulatory submissions, detailing the roles and requirements of various global regulatory agencies. It will highlight the way of working in the therapeutic areas in clinical trials and the significance of GxP (Good Practice) guidelines in ensuring quality and compliance.
+
+2.  **End-to-End Process Insight**: The book will give an overview of the journey of clinical trial data from its final submission format to where it started. Starting from the Tables, Listings and Figures trace back to associated documents and dependencies such as understanding trial design, data collection, and the transformation of raw data into submission-ready formats like SDTM (Study Data Tabulation Model) and ADaM (Analysis Data Model).
+
+3.  **Clinical Trial Standards**: The book delves into the motivation behind data standards, explaining why they are essential for regulatory submissions. It covers the entire data lifecycle, from protocol and case report forms (CRFs) to the creation of standardized datasets and the generation of Tables, Listings, and Figures (TLFs).
+
+4.  **Clinical data Standards**: the process of creating SDTM domains from raw data, ADAM datasets from SDTM and Tables, Listings, and Figures from ADAM datasets is explained. The book also addresses quality checks and validation processes.
+
+5.  **Compilation of Submission Packages**: A guide on compiling submission packages, including the integration of SDTM, ADaM, and TLFs, creation of Define.xml, and reviewer's guides. The book also addresses final quality checks and validation processes.
+
+6.  **Case Studies and Best Practices**: Real-life examples and best practices are shared to provide readers with valuable insights into successful regulatory submissions. The book also addresses how to handle regulatory queries and audits.
+
+7.  **Future Trends and Developments**: An exploration of the evolving regulatory landscape and the impact of new technologies on submission packages. This section provides a future outlook for programming in regulatory submissions.
+
+8.  **Post-Submission Activities**: Guidance on post-submission activities, including the beginning of manufacturing, dealing with country-specific regulations, and post-marketing surveillance.
+
+##### Conclusion
+
+"Understanding Clinical Regulatory Submissions: From Data to Submission" is an essential resource for anyone involved in the programming and submission of clinical trial data. By providing detailed, example-driven content, the book aims to demystify the regulatory submission process, ensure compliance with global standards, and prepare readers for future challenges in the pharmaceutical industry. This book not only equips readers with the necessary skills but also empowers them to contribute effectively to their organizations' regulatory submission efforts.

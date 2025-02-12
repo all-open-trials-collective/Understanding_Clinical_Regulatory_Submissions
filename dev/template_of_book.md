@@ -1,0 +1,108 @@
+# Learning Programming for Clinical Regulatory Submission by Example
+
+
+Target audience
+
+- Programming managers
+- Programmers/developers new to the Pharma industry
+- Graduate students in life sciences
+
+# Chapter 1: Introduction to Regulatory(GxP) Submissions
+
+*define why we need this book and what we aim to achieve and what is
+GxP* *Provide Map and list of regulatory agencies across the world*
+*Mention the requirements from each agency* *select one that we will
+discuss throughout the book - use as an example* *Mention Therapeutic
+areas in CTs* *Explanation should not be tool specific and should be
+generic*
+
+- Overview of Regulatory Submissions
+- Trial design(protocol, crf\[acrf\], analysis plans) and clinical
+  phases/stages(pre-clinical , phase 1, 2, 3, 4\[post marketing - HTA
+  ….\]) and data collection *on the overview - show the areas this book
+  is aiming to cover*
+- Role of Programming in Submission Packages
+
+# Chapter 2: The Whole Game
+
+*example would be to select an endpoint and trace it’s origin from TFL
+all the way back to source (likely protocol)* - Understanding the Entire
+Submission Process through an Example - Starting with a Table and
+Working Backwards: From Table to ADAM, SDTM, and CRF - Exploring the
+Impact on Associated Documents like Protocol and Statistical Analysis
+Plan *roadmap list of outputs*
+
+# Chapter 3: Understanding Clinical Trial Data
+
+*add as much details as we can*
+
+*describe the motivation of the existence of the data standards - for
+example what drives the collection and creation of SDTMs*
+
+*protocol -\> crf (acrf) -\> *CDASH - TOCHECK* database to collect the
+data -\> raw data - \> CDISC: SDTM -\> ADAM -\> TLFs*
+
+- Introduction to SDTM, ADAM, and Tables, Listings, and Figures
+- Data Collection and CRF (Case Report Form)
+- Data Standards: SDTM (Study Data Tabulation Model) and ADAM (Analysis
+  Data Model)
+- Overview of Tables, Listings, and Figures
+
+# Chapter 4: Creating SDTM Domains
+
+*explain the process of creating SDTM domains from raw data - the *why*
+and how? * - Mapping the Demographics Table to SDTM - Converting CRF
+Data to SDTM - Impact on Associated Documents: Protocol and Statistical
+Analysis Plan
+
+# Chapter 5: Generating ADaM Datasets
+
+*explain the process of creating ADAM datasets from SDTM - the *why* and
+how?* *invite Nikolai and Mathew for input on this section as they have
+gone through this* - Transforming SDTM Demographics to ADAM -
+Programming for Statistical Analysis - Implications for Associated
+Documents
+
+# Chapter 6: Tables, Listings, and Figures (TLFs)
+
+*Reviewers Guide, CSR, ….* - Programming TLFs for Data Presentation
+based on Demographics - Quality Control and Validation of TLFs - Impact
+on Regulatory Requirements for TLFs
+
+# Chapter 7: Submission Package Compilation
+
+- Summary of Programming Steps for Submission Packages
+  - key milestones
+  - key outcomes
+  - key documents
+  - stack-holders (who will participate in the review of the documents)
+    - for example for a medical writer what are their responsibilities
+      given the deliverables
+- Integration of SDTM, ADAM, and TLFs from the Demographics Example
+- Creation of Define.xml and Reviewer’s Guide
+- Regulatory Documentations and Submissions
+- Final Quality Checks and Validation
+
+# Chapter 8: Case Studies and Best Practices
+
+*introduce tools and technologies that are used in the industry* -
+Real-life Examples of Submission Packages - Best Practices for
+Programming in Regulatory Submissions - Addressing Regulatory Queries
+and Audits
+
+# Chapter 9: Future Trends and Developments
+
+*history of the industry and how it has changed over time to where we
+are today.* *this stage sets us for looking into the future* - Evolving
+Regulatory Standards - Impact of New Technologies on Submission Packages
+
+*GxP should be highlighted/emphasized throughout the discussions* -
+Future Outlook for Programming in Regulatory Submissions
+
+# Chapter 10: What next after submission
+
+- Post submission activities
+- Beginning of manufacturing
+- Dealing with each country to use the drug
+- Post marketing surveillance - monitoring the drug after it is in the
+  market

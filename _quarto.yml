@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Understanding Clinical Regulatory Submissions"
+  subtitle: "From Data to Submission"
+  author: "Lovemore Gakava & Cervan Girard"
+  date: "2/12/2025"
+  chapters:
+    - index.qmd
+    - summary.qmd
+    - references.qmd
+
+# bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

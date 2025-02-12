@@ -1,0 +1,3 @@
+# Purpose and Motivation {.unnumbered}
+
+The pharmaceutical industry is heavily regulated, and the submission of clinical trial data to regulatory agencies is a complex and crucial process. The book "Understanding Clinical Regulatory Submissions: From Data to Submission" aims to bridge the knowledge gap for programmers and developers new to the pharma industry, programming managers, and graduate students in life sciences. This book is designed to reinforce the concepts behind programming in pharma and using a supporting example.
