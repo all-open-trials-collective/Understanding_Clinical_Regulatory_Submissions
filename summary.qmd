@@ -18,6 +18,6 @@
 
 8.  **Post-Submission Activities**: Guidance on post-submission activities, including the beginning of manufacturing, dealing with country-specific regulations, and post-marketing surveillance.
 
-##### Conclusion
+  
 
-"Understanding Clinical Regulatory Submissions: From Data to Submission" is an essential resource for anyone involved in the programming and submission of clinical trial data. By providing detailed, example-driven content, the book aims to demystify the regulatory submission process, ensure compliance with global standards, and prepare readers for future challenges in the pharmaceutical industry. This book not only equips readers with the necessary skills but also empowers them to contribute effectively to their organizations' regulatory submission efforts.
+The book is an essential resource for anyone involved in the programming and submission of clinical trial data. By providing detailed, example-driven content, the book aims to demystify the regulatory submission process, ensure compliance with global standards, and prepare readers for future challenges in the pharmaceutical industry. This book not only equips readers with the necessary skills but also empowers them to contribute effectively to their organizations' regulatory submission efforts.
