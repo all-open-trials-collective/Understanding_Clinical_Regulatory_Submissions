@@ -43,26 +43,37 @@ _protocol -> crf (acrf) -> *CDASH - TOCHECK* database to collect the data -> raw
 - Data Standards: SDTM (Study Data Tabulation Model) and ADAM (Analysis Data Model)
 - Overview of Tables, Listings, and Figures
 
-# Chapter 4: Creating SDTM Domains
+# Chapter 4: From Protocol to Data collection
+_add as much details as we can_
+ 
+_describe how we get to data collection_
+ 
+_protocol -> crf (acrf) -> *CDASH - TOCHECK* database to collect the data -> raw data_
+ 
+-From protocol to CRF/ aCRF then to Database then to Collection
+
+
+
+# Chapter 5: Creating SDTM Domains
 _explain the process of creating SDTM domains from raw data - the *why* and how? _
 - Mapping the Demographics Table to SDTM
 - Converting CRF Data to SDTM
 - Impact on Associated Documents: Protocol and Statistical Analysis Plan
  
-# Chapter 5: Generating ADaM Datasets
+# Chapter 6: Generating ADaM Datasets
 _explain the process of creating ADAM datasets from SDTM - the *why* and how?_
 _invite Nikolai and Mathew for input on this section as they have gone through this_
 - Transforming SDTM Demographics to ADAM
 - Programming for Statistical Analysis
 - Implications for Associated Documents
  
-# Chapter 6: Tables, Listings, and Figures (TLFs)
+# Chapter 7: Tables, Listings, and Figures (TLFs)
 _Reviewers Guide, CSR, ...._
 - Programming TLFs for Data Presentation based on Demographics
 - Quality Control and Validation of TLFs
 - Impact on Regulatory Requirements for TLFs
  
-# Chapter 7: Submission Package Compilation
+# Chapter 8: Submission Package Compilation
 - Summary of Programming Steps for Submission Packages
   - key milestones
   - key outcomes
@@ -74,13 +85,13 @@ _Reviewers Guide, CSR, ...._
 - Regulatory Documentations and Submissions
 - Final Quality Checks and Validation
  
-# Chapter 8: Case Studies and Best Practices
+# Chapter 9: Case Studies and Best Practices
 _introduce tools and technologies that are used in the industry_
 - Real-life Examples of Submission Packages
 - Best Practices for Programming in Regulatory Submissions
 - Addressing Regulatory Queries and Audits
  
-# Chapter 9: Future Trends and Developments
+# Chapter 10: Future Trends and Developments
 _history of the industry and how it has changed over time to where we are today._
 _this stage sets us for looking into the future_
 - Evolving Regulatory Standards
@@ -89,7 +100,7 @@ _this stage sets us for looking into the future_
 _GxP should be highlighted/emphasized throughout the discussions_
 - Future Outlook for Programming in Regulatory Submissions
  
-# Chapter 10: What next after submission
+# Chapter 11: What next after submission
 - Post submission activities
 - Beginning of manufacturing 
 - Dealing with each country to use the drug
