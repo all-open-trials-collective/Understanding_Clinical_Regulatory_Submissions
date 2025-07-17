@@ -1,4 +1,55 @@
+# Quarto Book Output
 /.quarto/
 _book/
 pdf/
-.Rproj.user
+
+# R and RStudio files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*_cache/
+*_files/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+
+# LaTeX intermediate files (for PDF generation)
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*

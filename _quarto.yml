@@ -4,11 +4,26 @@ project:
 book:
   title: "Understanding Clinical Regulatory Submissions"
   subtitle: "From Data to Submission"
-  author: "Lovemore Gakava & Cervan Girard"
-  date: "2/12/2025"
+  author: 
+    - name: "Lovemore Gakava"
+      affiliation: "Clinical Data Scientist"
+    - name: "Cervan Girard"
+      affiliation: "Clinical Data Scientist"
+  date: today
   chapters:
     - index.qmd
     - summary.qmd
+    - 01_understandingRS.qmd
+    - 02_the_whole_game.qmd
+    - 03_understanding_clinical_trial_data.qmd
+    - 04_protocol_to_data_collection.qmd
+    - 05_creating_sdtm_domains.qmd
+    - 06_generating_adam_datasets.qmd
+    - 07_tables_listings_figures.qmd
+    - 08_submission_package_compilation.qmd
+    - 09_case_studies_best_practices.qmd
+    - 10_future_trends_developments.qmd
+    - 11_post_submission_activities.qmd
     # - references.qmd
 
 # bibliography: references.bib

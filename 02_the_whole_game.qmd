@@ -1,0 +1,38 @@
+# The Whole Game
+
+## Understanding the Entire Submission Process through an Example
+
+This chapter provides a comprehensive walkthrough of the entire submission process by following a specific endpoint from its final presentation in a Table, Listing, or Figure (TLF) all the way back to its origin in the study protocol. This "whole game" approach helps readers understand how all components of regulatory submissions interconnect.
+
+## Starting with a Table and Working Backwards: From Table to ADAM, SDTM, and CRF
+
+We begin our journey with a completed demographic table from a regulatory submission and trace its data lineage backwards:
+
+- **Table/Listing/Figure (TLF)**: The final output presented to regulators
+- **ADAM Dataset**: The analysis-ready dataset used to generate the TLF
+- **SDTM Dataset**: The standardized dataset derived from raw clinical data
+- **Case Report Form (CRF)**: The data collection instrument
+- **Protocol**: The source document defining what data to collect and why
+
+This reverse engineering approach illuminates the critical dependencies and transformations that occur at each stage of the data pipeline.
+
+## Exploring the Impact on Associated Documents
+
+Understanding how changes at any level cascade through the entire system is crucial for:
+
+- **Protocol amendments** and their downstream effects
+- **Statistical Analysis Plan (SAP)** modifications
+- **Data management** considerations
+- **Quality control** processes
+
+## Roadmap of Key Outputs
+
+By the end of this chapter, readers will understand:
+
+1. The complete data flow from protocol to submission
+2. How each document type serves a specific regulatory purpose
+3. The interdependencies between different submission components
+4. Quality control checkpoints throughout the process
+5. The importance of traceability and documentation
+
+This foundational understanding prepares readers for the detailed exploration of each component in subsequent chapters.
