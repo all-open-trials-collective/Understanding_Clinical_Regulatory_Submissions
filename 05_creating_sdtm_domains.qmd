@@ -1,0 +1,147 @@
+# Creating SDTM Domains
+
+## Introduction to SDTM Domain Creation
+
+The Study Data Tabulation Model (SDTM) represents a critical standardization step in the journey from raw clinical trial data to regulatory submission. This chapter explores the process, rationale, and best practices for converting collected trial data into CDISC-compliant SDTM domains.
+
+## Understanding the 'Why' of SDTM
+
+### Regulatory Requirements
+SDTM standardization serves multiple critical purposes:
+
+- **Regulatory harmonization**: Enabling consistent review processes across global health authorities
+- **Data transparency**: Providing clear, standardized data structures for regulatory reviewers
+- **Submission efficiency**: Streamlining the review process through predictable data formats
+- **Data integrity**: Ensuring traceability and auditability of clinical trial data
+
+### Business Benefits
+Beyond regulatory compliance, SDTM provides:
+
+- **Cross-study comparability**: Enabling meta-analyses and integrated summaries
+- **Operational efficiency**: Reducing custom programming through standardization
+- **Quality improvement**: Forcing systematic thinking about data relationships
+- **Knowledge management**: Creating institutional memory through standardized processes
+
+## The SDTM Domain Structure
+
+### Core Principles
+SDTM domains are built on fundamental principles:
+
+- **One record per observation**: Each row represents a single data point
+- **Standardized variables**: Using controlled terminology and naming conventions
+- **Relational structure**: Linking related information across domains
+- **Metadata documentation**: Comprehensive variable and value documentation
+
+### Domain Categories
+
+**Interventions Domains**: Exposure, Concomitant Medications, Substance Use
+**Events Domains**: Adverse Events, Medical History, Clinical Events
+**Findings Domains**: Laboratory Tests, Vital Signs, Physical Examinations
+**Special Purpose Domains**: Demographics, Disposition, Protocol Deviations
+
+## Mapping Demographics to SDTM
+
+### Demographics Domain (DM) Creation
+
+Starting with our demographics example, we examine:
+
+**Raw Data Elements:**
+- Subject identifier
+- Date of birth
+- Sex
+- Race
+- Ethnicity
+- Study site information
+
+**SDTM DM Domain Variables:**
+- STUDYID, DOMAIN, USUBJID (identifier variables)
+- AGE, AGEU, SEX, RACE, ETHNIC (demographic variables)
+- SITEID, INVID, INVNAM (administrative variables)
+- RFSTDTC, RFENDTC (reference dates)
+
+### Mapping Process
+
+1. **Variable mapping**: Aligning raw data fields to SDTM variables
+2. **Value standardization**: Converting to controlled terminology
+3. **Derivation logic**: Calculating derived variables (e.g., age from birth date)
+4. **Quality checks**: Validating mapping accuracy and completeness
+
+## Converting CRF Data to SDTM
+
+### Data Transformation Steps
+
+The conversion process involves systematic transformation:
+
+1. **Data extraction**: Retrieving raw data from clinical databases
+2. **Cleaning and validation**: Ensuring data quality and consistency
+3. **Standardization**: Applying CDISC controlled terminology
+4. **Domain assignment**: Organizing data into appropriate SDTM domains
+5. **Relationship establishment**: Creating links between related domains
+6. **Quality control**: Validating transformation accuracy
+
+### Programming Considerations
+
+Effective SDTM programming requires:
+
+- **Robust derivation logic**: Handling missing data and edge cases
+- **Audit trail maintenance**: Documenting all transformations
+- **Version control**: Managing changes and updates
+- **Performance optimization**: Efficient processing of large datasets
+
+## Impact on Associated Documents
+
+### Protocol Alignment
+SDTM creation must align with protocol specifications:
+
+- **Endpoint definitions**: Ensuring all protocol-defined endpoints are captured
+- **Visit schedules**: Properly representing timing of assessments
+- **Subject populations**: Accurately reflecting study participation
+
+### Statistical Analysis Plan (SAP) Considerations
+SDTM domains must support planned analyses:
+
+- **Analysis populations**: Enabling derivation of analysis datasets
+- **Endpoint calculations**: Providing necessary source data
+- **Baseline definitions**: Supporting comparative analyses
+
+## Quality Assurance and Validation
+
+### SDTM Review Process
+
+Comprehensive quality control includes:
+
+- **Conformance testing**: Validating against CDISC specifications
+- **Cross-domain consistency**: Ensuring relational integrity
+- **Completeness checks**: Verifying all required data is included
+- **Medical review**: Confirming clinical accuracy and relevance
+
+### Documentation Requirements
+
+Proper documentation includes:
+
+- **Mapping specifications**: Detailed transformation rules
+- **Derivation algorithms**: Step-by-step calculation methods
+- **Assumption documentation**: Recording decisions and rationale
+- **Change control**: Tracking modifications and their justification
+
+## Best Practices for SDTM Creation
+
+### Planning and Design
+- Start SDTM planning during protocol development
+- Engage cross-functional teams early in the process
+- Consider downstream ADAM and TLF requirements
+- Plan for submission-specific needs
+
+### Implementation
+- Use validated programming environments
+- Implement comprehensive quality control procedures
+- Maintain detailed audit trails
+- Test with realistic data volumes
+
+### Maintenance
+- Establish change control procedures
+- Document all decisions and rationale
+- Plan for regulatory queries and amendments
+- Prepare for potential re-submissions
+
+The creation of high-quality SDTM domains is fundamental to successful regulatory submissions, requiring careful planning, systematic execution, and rigorous quality control throughout the process.
